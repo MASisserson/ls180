@@ -674,3 +674,7 @@ SELECT d.name AS director, count(d_f.id) AS films FROM directors AS d
 JOIN directors_films as d_f ON d.id = d_f.director_id
 GROUP BY d.name
 ORDER BY films DESC, director;
+
+
+##################################################################
+
